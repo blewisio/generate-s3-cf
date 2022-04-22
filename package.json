@@ -1,5 +1,21 @@
 {
   "name": "generate-s3-cf",
-  "version": "0.1.0",
-  "scripts": {}
+  "version": "1.0.0",
+  "license": "ISC",
+  "bin": {
+    "generate-s3-cf": "index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "camelcase": "^6.3.0",
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
